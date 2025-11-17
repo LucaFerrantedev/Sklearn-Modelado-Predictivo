@@ -3,6 +3,11 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 
+# Aclaracion:
+# composición de ingresos de los recursos = índice de desarrollo humano que combina el Producto Nacional Bruto (PNB) per cápita,
+# los años de escolaridad y la esperanza de vida al nacer, y sirve como un fuerte indicador del nivel de desarrollo socioeconómico de un país
+# (el índice varía de 0 a 1) 0 significando muy bajos ingresos y 1 ingresos muy altos.
+
 df = pd.read_csv("Life Expectancy Data.csv")
 df.columns = df.columns.str.strip()
 
