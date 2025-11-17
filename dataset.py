@@ -44,8 +44,3 @@ ax.set_title(f'Prediccion de Expectativa de Vida basada en Indice Composición d
 ax.legend()
 ax.grid(True)
 plt.show()
-
-# Imprimir resultados del modelo
-print(f"\nModelo ln(Y) = a + b*X:")
-print(f"Intercepto (a): {intercept:.4f}")
-print(f"Coeficiente (b) para '{X_col}': {coef:.4f}")
