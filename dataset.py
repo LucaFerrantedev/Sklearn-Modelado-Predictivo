@@ -3,7 +3,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 
-# cargar el dataset y limpiar nombres de columnas
 df = pd.read_csv("Life Expectancy Data.csv")
 df.columns = df.columns.str.strip()
 
@@ -13,7 +12,6 @@ Y_col = 'Life expectancy'
 # elimina las filas con datos faltantes en las columnas X_col y Y_col
 df_clean = df[[X_col, Y_col]].dropna()
 
-# Preparar X (variable independiente) y Y (variable dependiente)
 X = np.array(df_clean[X_col]).reshape(-1, 1)
 Y = np.array(df_clean[Y_col]).reshape(-1, 1)
 
@@ -23,7 +21,7 @@ Y_log = np.log(Y)
 model = LinearRegression(fit_intercept=True)
 model.fit(X, Y_log)
 
-# Obtener los coeficientes
+# obtener coeficientes
 intercept = model.intercept_[0]
 coef = model.coef_[0][0]
 
