@@ -1,18 +1,20 @@
 # 📚Predicción de Expectativa de Vida 📊
-Repositorio creado para un trabajo de investigación institucional centrado en Scikit-Learn y análisis estadístico. El codigo implementa una regresión exponencial diseñada para predecir la expectativa de vida basándose en indicadores de ingresos globales.
+Repositorio creado para un trabajo para una Tecnicatura en Análisis en Sistemas centrado en Scikit-Learn y análisis estadístico. El codigo implementa una regresión exponencial diseñada para predecir la expectativa de vida basándose en indicadores de ingresos globales.
 
-🛠️ Características Principales:
-Modelado Avanzado: Implementación de una regresión lineal sobre datos transformados logarítmicamente para capturar tendencias exponenciales.
+**🛠️ Características Principales:**
 
-Optimización de Datos: Incluye una fase de limpieza basada en correcciones académicas que mejoraron notablemente el rendimiento y la claridad del gráfico final.
+**Modelado Avanzado:** Implementación de una regresión lineal sobre datos transformados logarítmicamente para capturar tendencias exponenciales.
 
-Impacto en el Rendimiento: Mediante un filtrado estratégico de datos (ignorando índices < 0.2), se logró elevar el score de precisión de 0.502 a 0.760.
+**Optimización de Datos:** Incluye una fase de limpieza basada en correcciones académicas que mejoraron notablemente el rendimiento y la claridad del gráfico final.
 
-💻 Stack Tecnológico:
-🐍 Python como lenguaje principal.
+**Impacto en el Rendimiento:** Mediante un filtrado estratégico de datos (ignorando índices < 0.2), se logró elevar el score de precisión de 0.502 a 0.760.
 
-🐼 Pandas & NumPy para la manipulación y limpieza de estructuras de datos.
+**💻 Stack Tecnológico:**
 
-🤖 Scikit-Learn para el entrenamiento y evaluación del modelo predictivo.
+**🐍 Python** como lenguaje principal.
 
-📉 Matplotlib para la generación de visualizaciones dinámicas.
+**🐼 Pandas & NumPy** para la manipulación y limpieza de estructuras de datos.
+
+**🤖 Scikit-Learn** para el entrenamiento y evaluación del modelo predictivo.
+
+**📉 Matplotlib** para la generación de visualizaciones dinámicas.
