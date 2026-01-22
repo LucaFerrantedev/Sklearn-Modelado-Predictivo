@@ -1,5 +1,5 @@
 # 📚Predicción de Expectativa de Vida 📊
-Repositorio creado para un trabajo de investigación institucional centrado en Scikit-Learn y análisis estadístico. El script implementa una regresión exponencial diseñada para predecir la expectativa de vida basándose en indicadores de ingresos globales.
+Repositorio creado para un trabajo de investigación institucional centrado en Scikit-Learn y análisis estadístico. El codigo implementa una regresión exponencial diseñada para predecir la expectativa de vida basándose en indicadores de ingresos globales.
 
 🛠️ Características Principales:
 Modelado Avanzado: Implementación de una regresión lineal sobre datos transformados logarítmicamente para capturar tendencias exponenciales.
